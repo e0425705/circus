@@ -14,7 +14,4 @@ public class Cage<T> {
         System.out.println(t + " out of cage");
         return t;
     }
-
-    public void lockup(T duck) {
-    }
 }
