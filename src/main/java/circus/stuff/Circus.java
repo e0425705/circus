@@ -70,5 +70,22 @@ public class Circus {
         animalArrayList.remove(louie);
         System.out.println("Index of Louie: " + animalArrayList.indexOf(louie));
 
+        makeAnimalsTalk();
+        System.out.println("Total value of equipments " + calculateValue(equipments));
+        System.out.println("Total value of animals " + calculateValue(animals));
+        Cage<Duck> duckCage = new Cage<>();
+        Duck duck = new Duck("Heuye");
+        duckCage.lockup(duck);
+        Parrot parrot = new Parrot("Popper");
+        Cage<Parrot> parrotCage = new Cage<>();
+        parrotCage.lockup(parrot);
+
+        ArrayList<Cage>cages = new ArrayList<>();
+        cages.add(duckCage);
+        cages.add(parrotCage);
+
+        for(Cage c: cages) {
+            c.release();
+        }
     }
 }
