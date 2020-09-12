@@ -1,7 +1,5 @@
 package circus.stuff;
 
-import circus.Asset;
-
 public abstract class Equipment implements Asset {
     protected int purchasePrice;
 

@@ -1,4 +1,4 @@
-package circus;
+package circus.stuff;
 
 import circus.animal.Animal;
 import circus.animal.Bird;

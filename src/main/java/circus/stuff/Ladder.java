@@ -1,7 +1,5 @@
 package circus.stuff;
 
-import circus.Asset;
-
 public class Ladder extends Equipment implements Asset {
 
     public Ladder(int purchasePrice) {
