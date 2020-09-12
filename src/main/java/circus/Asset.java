@@ -1,5 +1,9 @@
-package circus;
+package circus.animal;
 
-public interface Asset {
-    int getValue();
+import circus.Asset;
+
+public abstract class Animal implements Asset {
+
+    public String name;
+    public abstract String speak();
 }

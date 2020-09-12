@@ -6,7 +6,6 @@ public class Duck extends Bird {
         return toString() + "  Quack Quack";
     }
 
-
     @Override
     public String toString() {
         return "I'm " + name + ". I am a Duck!";
